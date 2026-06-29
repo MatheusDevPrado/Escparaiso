@@ -129,9 +129,9 @@ h3 {
   justify-content: space-between;
   gap: 24px;
   padding: 12px clamp(20px, 5vw, 74px);
-  color: #fff;
-  background: rgba(38, 51, 39, 0.92);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--green-950);
+  background: #dbf9d9;
+  border-bottom: 1px solid rgba(68, 88, 68, 0.18);
   backdrop-filter: blur(16px);
 }
 
@@ -142,7 +142,7 @@ h3 {
   left: clamp(20px, 5vw, 74px);
   height: 1px;
   content: "";
-  background: linear-gradient(90deg, transparent, rgba(5, 255, 138, 0.42), transparent);
+  background: linear-gradient(90deg, transparent, rgba(68, 88, 68, 0.3), transparent);
 }
 
 .brand {
@@ -188,13 +188,13 @@ h3 {
 .main-nav {
   display: flex;
   gap: 20px;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(38, 51, 39, 0.78);
   font-size: 13px;
   font-weight: 800;
 }
 
 .main-nav a:hover {
-  color: #fff;
+  color: var(--green-950);
 }
 
 .main-nav a {
@@ -209,7 +209,7 @@ h3 {
   left: 0;
   height: 2px;
   content: "";
-  background: var(--accent);
+  background: var(--green-700);
   border-radius: 999px;
   opacity: 0;
   transform: scaleX(0.42);
@@ -229,7 +229,7 @@ h3 {
 }
 
 .phone-link {
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(38, 51, 39, 0.78);
   font-size: 13px;
   font-weight: 800;
 }
@@ -262,11 +262,16 @@ h3 {
   transform: translateX(2px);
 }
 
-.header-cta,
 .btn-primary {
-  color: var(--green-950);
-  background: var(--accent);
-  box-shadow: 0 14px 36px rgba(5, 255, 138, 0.16);
+  color: #fff;
+  background: var(--green-900);
+  box-shadow: 0 14px 36px rgba(38, 51, 39, 0.16);
+}
+
+.header-cta {
+  color: #fff;
+  background: var(--green-900);
+  box-shadow: 0 14px 36px rgba(38, 51, 39, 0.16);
 }
 
 .btn-secondary {
