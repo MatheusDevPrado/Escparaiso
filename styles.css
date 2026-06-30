@@ -954,15 +954,12 @@ h3 {
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
 }
 
-.final-cta .contact-card::before {
-  display: block;
-  margin-bottom: 18px;
+.email-note {
+  margin: 0 0 16px;
   color: var(--green-900);
-  content: "Contato direto";
-  font-size: 13px;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .btn.full {
