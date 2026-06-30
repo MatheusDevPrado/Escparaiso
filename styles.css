@@ -270,7 +270,7 @@ h3 {
 
 .header-cta {
   color: #fff;
-  background: var(--green-900);
+  background: var(--accent);
   box-shadow: 0 14px 36px rgba(38, 51, 39, 0.16);
 }
 
